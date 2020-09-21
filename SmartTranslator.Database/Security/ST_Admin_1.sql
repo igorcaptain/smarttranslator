@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [ST_Admin]
+    WITH PASSWORD = N'wbit0&1%$:j|tpru1hgdlitkmsFT7_&#$!~<grC,Busxss@h', SID = 0x4A7B646BFFE0E04AB86924D5B17AD5AD, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

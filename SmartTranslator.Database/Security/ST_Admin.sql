@@ -1,0 +1,2 @@
+﻿CREATE USER [ST_Admin] FOR LOGIN [ST_Admin];
+

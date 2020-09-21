@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator", "SmartTranslator\SmartTranslator.csproj", "{5791594E-6747-4660-A947-FDC9B085B88A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator.Processor", "SmartTranslatorLibrary\SmartTranslator.Processor.csproj", "{39A741F3-F792-41C1-A006-4827AF266E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator.Data", "SmartTranslator.Data\SmartTranslator.Data.csproj", "{8CC28541-FDD6-4B46-B208-D0957A04260F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator.Utils", "SmartTranslator.Utils\SmartTranslator.Utils.csproj", "{3264C117-7325-46C9-9B81-DBDDDF8F164B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator.Excel", "SmartTranslator.Excel\SmartTranslator.Excel.csproj", "{A895B581-0B3E-4F54-9720-542D0E9B03DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator.DictionaryRepository", "SmartTranslator.DictionaryRepository\SmartTranslator.DictionaryRepository.csproj", "{6374EA49-A84E-402F-B9F7-A4D68897BBB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{633E288F-A108-4B6D-AA9C-066F11DECB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator.Processor.Test", "SmartTranslator.Processor.Test\SmartTranslator.Processor.Test.csproj", "{6F79CA1D-2CE3-44AF-BC7F-FE5D3212EBE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator.Excel.Test", "SmartTranslator.Excel.Test\SmartTranslator.Excel.Test.csproj", "{A59DA7F0-D6BA-4090-B2C4-491503E80BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTranslator.Utils.Test", "SmartTranslator.Utils.Test\SmartTranslator.Utils.Test.csproj", "{E1F0D222-886A-43D1-B322-C1378D62329F}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SmartTranslator.Database", "SmartTranslator.Database\SmartTranslator.Database.sqlproj", "{AC0E7F28-9DBE-4925-AA4B-54352F11AF7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5791594E-6747-4660-A947-FDC9B085B88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5791594E-6747-4660-A947-FDC9B085B88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5791594E-6747-4660-A947-FDC9B085B88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5791594E-6747-4660-A947-FDC9B085B88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A741F3-F792-41C1-A006-4827AF266E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A741F3-F792-41C1-A006-4827AF266E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A741F3-F792-41C1-A006-4827AF266E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A741F3-F792-41C1-A006-4827AF266E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC28541-FDD6-4B46-B208-D0957A04260F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC28541-FDD6-4B46-B208-D0957A04260F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC28541-FDD6-4B46-B208-D0957A04260F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC28541-FDD6-4B46-B208-D0957A04260F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3264C117-7325-46C9-9B81-DBDDDF8F164B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3264C117-7325-46C9-9B81-DBDDDF8F164B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3264C117-7325-46C9-9B81-DBDDDF8F164B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3264C117-7325-46C9-9B81-DBDDDF8F164B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A895B581-0B3E-4F54-9720-542D0E9B03DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A895B581-0B3E-4F54-9720-542D0E9B03DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A895B581-0B3E-4F54-9720-542D0E9B03DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A895B581-0B3E-4F54-9720-542D0E9B03DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6374EA49-A84E-402F-B9F7-A4D68897BBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6374EA49-A84E-402F-B9F7-A4D68897BBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6374EA49-A84E-402F-B9F7-A4D68897BBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6374EA49-A84E-402F-B9F7-A4D68897BBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F79CA1D-2CE3-44AF-BC7F-FE5D3212EBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F79CA1D-2CE3-44AF-BC7F-FE5D3212EBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F79CA1D-2CE3-44AF-BC7F-FE5D3212EBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F79CA1D-2CE3-44AF-BC7F-FE5D3212EBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59DA7F0-D6BA-4090-B2C4-491503E80BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59DA7F0-D6BA-4090-B2C4-491503E80BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59DA7F0-D6BA-4090-B2C4-491503E80BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59DA7F0-D6BA-4090-B2C4-491503E80BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F0D222-886A-43D1-B322-C1378D62329F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F0D222-886A-43D1-B322-C1378D62329F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F0D222-886A-43D1-B322-C1378D62329F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F0D222-886A-43D1-B322-C1378D62329F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0E7F28-9DBE-4925-AA4B-54352F11AF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0E7F28-9DBE-4925-AA4B-54352F11AF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0E7F28-9DBE-4925-AA4B-54352F11AF7D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC0E7F28-9DBE-4925-AA4B-54352F11AF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0E7F28-9DBE-4925-AA4B-54352F11AF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0E7F28-9DBE-4925-AA4B-54352F11AF7D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F79CA1D-2CE3-44AF-BC7F-FE5D3212EBE9} = {633E288F-A108-4B6D-AA9C-066F11DECB6F}
+		{A59DA7F0-D6BA-4090-B2C4-491503E80BBD} = {633E288F-A108-4B6D-AA9C-066F11DECB6F}
+		{E1F0D222-886A-43D1-B322-C1378D62329F} = {633E288F-A108-4B6D-AA9C-066F11DECB6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE3C00A2-012B-4B2C-824B-9BFE5A46E6DB}
+	EndGlobalSection
+EndGlobal
