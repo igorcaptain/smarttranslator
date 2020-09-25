@@ -79,4 +79,7 @@
     <Build Include="Translate\Stored Procedures\pub_getStringTranslate.sql" />
     <Build Include="Security\Translate.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="SmartTranslator.Database.publish.xml" />
+  </ItemGroup>
 </Project>
